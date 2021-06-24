@@ -1,0 +1,65 @@
+$color-main: #391e88;
+$color-header: #21054d;
+$color-btn: linear-gradient(to right, #7633a4 0%,#250d65 51%,#7633a4 100%);
+$color-text: #333;
+$color-gray: #f0f0f0;
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 30px;
+    transition: all 0.3s;
+
+    &-logo-img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        li {
+            margin-right: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        &-link {
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            padding: 5.5px;
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 1px;
+                background: #fff;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+
+
+header.scroll-nav {
+    padding: 30px;
+    background: $color-header;
+}
+
+
+.header-nav-link:hover::after {
+    width: 100%;
+}

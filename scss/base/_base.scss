@@ -1,0 +1,84 @@
+$color-main: #391e88;
+$color-header: #21054d;
+$color-btn: linear-gradient(to right, #7633a4 0%,#250d65 51%,#7633a4 100%);
+$color-text: #333;
+$color-gray: #f0f0f0;
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    line-height: 1.8;
+    color: $color-text;
+    font-size: 15px;
+}
+
+a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: $color-main;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact-btn {
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.more-btn {
+    position: relative;
+    font-weight: bold;
+    line-height: 1.4;
+    display: inline-block;
+    width: 200px;
+    padding: 20px 0;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    background: $color-btn;
+    background-size: 200% auto;
+    &:hover {
+        background-position: right center;
+    }
+}
+
+h2 {
+    font-size: 36px;
+    color: $color-main;
+    display: flex;
+    flex-flow: column;
+    letter-spacing: .05em;
+    span {
+        font-size: 13px;
+        line-height: 5px;
+        letter-spacing: normal;
+    }
+}

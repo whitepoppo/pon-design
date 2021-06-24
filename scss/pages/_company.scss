@@ -1,0 +1,35 @@
+.company {
+    margin-top: 60px;
+    &-inner {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/company_bg_pc.png);
+        background-position: center;
+        background-size: auto;
+        height: 615px;
+    }
+    &-body {
+        background-image: url(../img/company_photo_pc.png);
+        background-size: contain;
+        background-position: center;
+        text-align: center;
+        // padding: 130px 0 130px 0;
+        width: 1300px;
+    }
+    &-message {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 40px;
+        &-line {
+            background: linear-gradient(transparent 70%, #f5f534 70%);
+        }
+    }
+    &-text {
+        margin-top: 40px;
+    }
+    &-link {
+        margin-top: 30px;
+    }
+}
