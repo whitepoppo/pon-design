@@ -469,6 +469,7 @@ header.scroll-nav {
 }
 .footer-nav li {
   margin-right: 30px;
+  font-size: 14px;
 }
 .footer-nav a {
   color: #fff;
@@ -482,5 +483,6 @@ header.scroll-nav {
   color: #A798B7;
   text-align: center;
   margin-top: 22px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
