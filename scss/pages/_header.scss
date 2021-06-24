@@ -13,8 +13,7 @@ $color-gray: #f0f0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
-    padding: 30px;
+    padding: 23px 30px;
     transition: all 0.3s;
 
     &-logo-img {
@@ -28,8 +27,9 @@ $color-gray: #f0f0f0;
         align-items: center;
         list-style: none;
         li {
-            margin-right: 30px;
+            margin-left: 25px;
             font-size: 15px;
+            letter-spacing: 0.1em;
             font-weight: bold;
             line-height: 1;
         }
@@ -38,12 +38,11 @@ $color-gray: #f0f0f0;
             text-decoration: none;
             display: inline-block;
             position: relative;
-            padding: 5.5px;
             &::after {
                 content: '';
                 position: absolute;
                 left: 0;
-                bottom: 0;
+                bottom: -5.5px;
                 width: 0;
                 height: 1px;
                 background: #fff;
@@ -55,7 +54,7 @@ $color-gray: #f0f0f0;
 
 
 header.scroll-nav {
-    padding: 30px;
+    padding: 23px 30px;
     background: $color-header;
 }
 

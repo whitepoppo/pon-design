@@ -100,8 +100,7 @@ h2 span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 65px;
-  padding: 30px;
+  padding: 23px 30px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -126,8 +125,9 @@ h2 span {
   list-style: none;
 }
 .header-nav li {
-  margin-right: 30px;
+  margin-left: 25px;
   font-size: 15px;
+  letter-spacing: 0.1em;
   font-weight: bold;
   line-height: 1;
 }
@@ -136,13 +136,12 @@ h2 span {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  padding: 5.5px;
 }
 .header-nav-link::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -5px;
   width: 0;
   height: 1px;
   background: #fff;
@@ -151,7 +150,7 @@ h2 span {
 }
 
 header.scroll-nav {
-  padding: 30px;
+  padding: 23px 30px;
   background: #21054d;
 }
 
