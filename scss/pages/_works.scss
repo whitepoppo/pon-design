@@ -1,8 +1,5 @@
-$color-main: #391e88;
-$color-header: #21054d;
-$color-btn: linear-gradient(to right, #7633a4 0%,#250d65 51%,#7633a4 100%);
-$color-text: #333;
-$color-gray: #f0f0f0;
+@forward '../base/colors';
+@use '../base/colors';
 
 .works {
     margin-top: 140px;
@@ -10,7 +7,7 @@ $color-gray: #f0f0f0;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 1260px;
+        max-width: 1260px;
         height: 650px;
         margin: 0 auto;
         position: relative;
@@ -24,7 +21,7 @@ $color-gray: #f0f0f0;
             height: 100%;
             content: '';
             transform: translateY(-50%);
-            background-color: $color-gray;
+            background-color: colors.$color-gray;
         }
     }
     &-slideshow {

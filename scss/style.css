@@ -141,7 +141,7 @@ h2 span {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: -5.5px;
   width: 0;
   height: 1px;
   background: #fff;
@@ -170,7 +170,7 @@ header.scroll-nav {
       -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
-  background: url(../img/hero_pc.png) center center no-repeat;
+  background: url(../img/hero_pc.png) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -301,6 +301,13 @@ header.scroll-nav {
   width: 350px;
   margin-right: 30px;
 }
+.card-item-img {
+  margin-right: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
+  height: 220px;
+}
 .card-item-body h3 {
   text-align: center;
   margin-top: 24px;
@@ -322,7 +329,7 @@ header.scroll-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1260px;
+  max-width: 1260px;
   height: 650px;
   margin: 0 auto;
   position: relative;
@@ -415,7 +422,7 @@ header.scroll-nav {
   max-width: 1110px;
   height: 340px;
   margin: 0 auto;
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 .recruit-body {
   text-align: center;

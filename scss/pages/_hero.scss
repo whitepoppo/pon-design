@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: url(../img/hero_pc.png) center center no-repeat;
+    background: url(../img/hero_pc.png) no-repeat;
     background-size: cover;
     height: 100vh;
     &-inner {
@@ -21,7 +21,7 @@
     }
     &-text {
         margin-top: 20px;
-        letter-spacing: .1em;
+        letter-spacing: 0.1em;
         font-size: 24px;
     }
     &-link {

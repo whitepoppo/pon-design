@@ -1,8 +1,5 @@
-$color-main: #391e88;
-$color-header: #21054d;
-$color-btn: linear-gradient(to right, #7633a4 0%,#250d65 51%,#7633a4 100%);
-$color-text: #333;
-$color-gray: #f0f0f0;
+@forward '../base/colors';
+@use '../base/colors';
 
 .recruit {
     margin-top: 65px;
@@ -13,7 +10,7 @@ $color-gray: #f0f0f0;
         max-width: 1110px;
         height: 340px;
         margin: 0 auto;
-        background-color: $color-gray;
+        background-color: #f7f7f7;
     }
     &-body {
         text-align: center;

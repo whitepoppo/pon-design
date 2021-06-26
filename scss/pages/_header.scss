@@ -1,8 +1,5 @@
-$color-main: #391e88;
-$color-header: #21054d;
-$color-btn: linear-gradient(to right, #7633a4 0%,#250d65 51%,#7633a4 100%);
-$color-text: #333;
-$color-gray: #f0f0f0;
+@forward '../base/colors';
+@use '../base/colors';
 
 .header {
     position: fixed;
@@ -55,7 +52,7 @@ $color-gray: #f0f0f0;
 
 header.scroll-nav {
     padding: 23px 30px;
-    background: $color-header;
+    background: colors.$color-header;
 }
 
 

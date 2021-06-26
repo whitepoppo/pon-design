@@ -1,3 +1,6 @@
+@forward '../base/colors';
+@use '../base/colors';
+
 .company {
     margin-top: 60px;
     &-inner {
@@ -23,7 +26,7 @@
         font-weight: bold;
         margin-top: 40px;
         &-line {
-            background: linear-gradient(transparent 70%, #f5f534 70%);
+            background: linear-gradient(transparent 70%, colors.$color-yellow 70%);
         }
     }
     &-text {

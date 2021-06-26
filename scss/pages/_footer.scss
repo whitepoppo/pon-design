@@ -1,5 +1,8 @@
+@forward '../base/colors';
+@use '../base/colors';
+
 .footer {
-    background-color: #120e19;
+    background-color: colors.$color-footer;
     padding: 60px 3px 60px;
     &-nav {
         display: flex;
@@ -18,7 +21,7 @@
         }
     }
     .copyright {
-        color: #A798B7;
+        color: colors.$color-copyright;
         text-align: center;
         margin-top: 22px;
         font-size: 10px;
